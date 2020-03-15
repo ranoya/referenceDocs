@@ -1,0 +1,307 @@
+    body, html {
+
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overscroll-behavior: none;
+        /* transition: all 0.4s ease-in-out; */
+
+      }
+
+      pre {
+
+        font-size: 1.15vw;
+        width: 100%;
+
+      }
+
+      #iconsearch {
+        float: left;
+        width: 23px;
+        height: 23px;
+        margin: 6px;
+        margin-left: 0;
+        margin-right: 8px;
+      }
+
+      #elementoDocs {
+
+        display:block;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        position: fixed;
+        width: 0;
+        height: calc(100% - 60px);
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* transition: all 0.4s ease-in-out; */
+        z-index: 5;
+        }
+
+        #conteudoDocs {
+
+        display:block;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        overflow-y: auto;
+        /* transition: all 0.4s ease-in-out; */
+        padding: 0;
+
+        }
+
+      input {
+
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 0;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        transition: all 0.4s ease-in-out;
+        width: calc(100% - 53px);
+        clear: both;
+        outline-width: 0;
+        margin-bottom: 20px;
+
+      }
+
+      input:focus {
+
+        transition: all 0.4s ease-in-out;
+        outline-width: 0;
+
+      }
+
+       iframe {
+
+        width: calc(100% - 22px);
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 10px;
+        height: 300px;
+
+      }
+
+      .capdivisao {
+
+        clear: both;
+        display: block;
+        padding: 0;
+        padding-left: 5px;
+        margin: 0;
+        margin-top: 30px;
+
+      }
+
+      #iconmenumobile {
+
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 5px;
+        padding: 5px;
+        width: 30px;
+        height: calc(100% - 5px);
+        display: none;
+        transition: all 0.4s ease-in-out;
+
+      }
+
+      #iconmenumobile:hover {
+        transition: all 0.4s ease-in-out;
+
+      }
+
+      .editor {
+
+          width: 100%; 
+          font-size: 1.15vw;
+      }
+
+      .diagramafull {
+
+          width: 100%;
+          display: block;
+          clear: both;
+
+      }
+
+      .diagramahalf {
+
+          width: 50%;
+          display: block;
+          float: left;
+
+      }
+
+      .firstblock {
+
+          width: calc(50% - 15px);
+          margin-right: 15px;
+
+      }
+
+      .separabloco {
+
+        clear: both;
+
+      }
+
+      table {
+
+        border-collapse: collapse;
+        width: 100%;
+
+      }
+
+      th {
+
+      }
+
+      td {
+
+      }
+
+      #copyright svg{
+
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 5px;
+          margin-top: -2px;
+
+      }
+
+      .topicolink {
+
+        text-decoration: none;
+        clear: both;
+        padding: 7px 5px 7px 5px;
+        width: calc(100% - 10px);
+        display: inline-block;
+
+      }
+
+      .topicolink:hover {
+
+      }
+
+      .topicoselected {
+
+      }
+
+      #copyright {
+
+          padding-top: 40px;
+          padding-bottom: 10px;
+
+
+      }
+
+      #copyright svg{
+
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 5px;
+          margin-top: -2px;
+          fill: white;
+
+}
+
+      @media (max-width: 750px) {
+
+        #iconmenumobile {
+          display: block;
+          transition: all 0.4s ease-in-out;
+
+        }
+
+        #elementoDocs { 
+
+          width: 0;
+          /* transition: all 0.4s ease-in-out; */
+          left: -20px;
+          z-index: 20;
+
+         }
+
+         #conteudoDocs {
+
+          left: 0;
+          width: calc(100% - 35px);
+          padding-left: 35px;
+          
+         }
+
+         .diagramahalf {
+
+          width: calc(100%);
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 10px;
+          display: block;
+          clear: both;
+
+          }
+
+          .firstblock {
+
+          width: 100%;
+          margin-right: 0;
+
+          }
+
+          .editor {
+
+            font-size: 10px;
+            line-height: 14px;
+          }
+
+          #copyright {
+
+          }
+
+      }
+
+
+      @media print {
+
+        body,html {
+          overflow: scroll;
+        }
+
+        #elementoDocs {
+
+          display: none;
+
+        }
+
+        #conteudoDocs {
+
+          width: 100%;
+          height: 100%;
+          overflow: scroll;
+        }
+
+        #iconmenumobile {
+          display: none;
+        }
+
+        #texto {
+          width: 100%;
+          height: 100%;
+          overflow: scroll;
+        }
+
+      }

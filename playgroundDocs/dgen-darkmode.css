@@ -1,0 +1,351 @@
+body, html {
+
+    background-color: #40124d;
+
+}
+
+#elementoDocs {
+
+    background-color: #40124d;
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+#iconsearch path {
+    fill: var(white, white);
+}
+
+#conteudoDocs {
+
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #40124d;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+input {
+
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: #40124d;
+    font-size: 16px;
+    line-height: 22px;
+    height: 28px;
+
+}
+
+input:focus {
+
+    background-color: #78008A;
+    color: white;
+    border-bottom: transparent 1px solid;
+
+}
+
+p a, td a, code a, a strong {
+
+    color: white;
+    text-decoration: none;
+    padding: 3px 10px 5px 10px;
+
+}
+
+p a:hover, td a:hover, code a:hover, a code:hover, a:hover strong {
+
+    background-color: white;
+    color: #78008A;
+
+}
+
+iframe {
+
+    border: 0 transparent none;
+    border-left-color: border-left: 2px solid #cccccc;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    padding: 0;
+
+}
+
+.diagramahalf {
+
+    width: calc(100% - 170px);
+
+}
+
+.firstblock {
+
+    width: 170px;
+    margin: 0;
+    padding: 0;
+}
+
+.secondsmallblock {
+
+    width: 153px;
+    height: 100px;
+    border-left: 2px dashed #cccccc;
+    margin-left: 15px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    padding: 0;
+
+}
+
+div.secondsmallblock iframe {
+
+  padding-top: 0;
+  margin-top: -10px;
+
+}
+
+.capdivisao {
+
+    font-family: Helvetica, Arial, sans-serif;
+    color: #d000f2;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bolder;
+
+}
+
+#iconmenumobile:hover {
+        
+    background-color: white;
+
+}
+
+.codefull {
+
+    width: 100%;
+
+}
+
+th {
+
+    background-color: #78008A;
+    color: white;
+    border: 1px solid #78008A;
+    padding: 10px;
+
+}
+
+td {
+
+    color: white;
+    border: 1px solid #78008A;
+    padding: 10px;
+
+}
+
+table {
+
+    border: 1px solid #78008A;
+
+}
+
+.topicolink {
+
+    background-color: #40124d;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.topicolink:hover {
+
+    background-color: white;
+    color: #40124d;
+
+}
+
+.topicoselected {
+
+    background-color: #78008A;
+    color: white;
+
+}
+
+
+
+#copyright svg{
+
+    fill: white;
+
+}
+
+#copyright {
+
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+
+
+#texto {
+  
+      font-family: Helvetica, Arial, sans-serif;
+      padding: 20px;
+      padding-right: 30px;
+ 
+}
+
+p {
+      font-size: 18px;
+      /* font-size: 16px; */
+      color: #ccafda;
+      /* color: #666666; */
+      clear: both;
+      text-align: justify;
+      line-height: 24px;
+      /* line-height: 22px; */
+    }
+
+h1 {
+
+      font-size: 36px;
+      line-height: 39px;
+      /* color: #36787e; */
+      color: white;
+
+}
+
+h2 {
+
+      font-size: 12px;
+      line-height: 28px;
+      color: #a0d1d7;
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+
+}
+
+h3 {
+
+      font-size: 24px;
+      line-height: 30px;
+      padding-top: 30px;
+      clear: both;
+
+}
+
+h6 {
+
+      font-size: 11px;
+      color: white;
+      font-weight: normal;
+      padding-top: 8px;
+
+}
+
+.choose {
+
+      margin: 0;
+      border-top: 1px #a0d1d7; dashed;
+      border-bottom: 1px #a0d1d7; dashed;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+}
+
+.marca {
+      color: #a0d1d7;
+}
+
+.optionalattr {
+      color: #a0d1d7;
+      opacity: 0.7;
+      border: 1px dashed #a0d1d7;
+      margin-left: 4px;
+      margin-right: 4px;
+      padding: 0 8px 2px 8px;
+}
+
+
+strong {
+
+      /* color: #F5871F; */
+      color: #ccafda;
+      
+
+}
+
+.third {
+
+    float: left;
+    width: calc(33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (max-width: 750px) {
+
+#texto {
+  padding-right: 10px;
+  padding-left: 8px;
+}
+
+.diagramahalf {
+
+    width: calc(100%);
+
+}
+
+.firstblock {
+
+    width: 100%;
+    margin: 0;
+}
+
+.third {
+  width: 100%;
+  margin-right: 0;
+
+}
+
+#conteudoDocs {
+  
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#copyright {
+
+    padding-left: 0;
+    padding-bottom: 40px;
+    font-size: 7px;
+    line-height: 12px;
+
+}
+
+.secondsmallblock {
+
+    width: 100%;
+    border-left: 0 none transparent;
+    border-top: 2px dashed #cccccc;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    clear: both;
+    height: auto;
+
+}
+
+
+
+}
