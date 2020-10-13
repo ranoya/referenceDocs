@@ -1,7 +1,6 @@
 # ReferenceDocs (Obsoleto)
 
-```
-O projeto ReferenceDocs foi descontinuado em favor de uma plataforma aprimorada para documentação dos códigos. Sua manutenção/registro no Github permanece apenas por uma questão de memória.
+**O projeto ReferenceDocs foi descontinuado** em favor de uma plataforma aprimorada para documentação dos códigos. Sua manutenção/registro no Github permanece apenas por uma questão de memória.
 
 A plataforma-base para documentação dos códigos adotada atualmente é o projeto [Sumarion](https://github.com/ranoya/sumarion).
 
@@ -10,7 +9,7 @@ Alguns exemplos de linguagens sendo documentadas na nova plataforma:
 [Código HTML](https://www.ranoya.com/books/public/html/)
 [Código CSS](https://www.ranoya.com/books/public/css/)
 
-```
+---
 
 Este projeto consiste em uma plataforma para construção de guias de referência para linguagens de programação. Ele foi criado para auxiliar no ensino de programação para alunos em estágio inicial, de forma que os elementos da programação pudessem ser apresentados de forma simples e fácil, e que eles pudessem alterar os códigos usados como exemplo e ver o resultado destas alterações imediatamente na própria documentação.
 
@@ -183,4 +182,4 @@ Não sei até que ponto vale à pena tentar aprimorá-lo. Talvez seja mais produ
 
 Divirta-se. Copie, modifique, distribua, incorpore em seu site, e faça o que achar melhor com ele. Sou professor universitário, e construí essa ferramenta para poder realizar meu trabalho. Uma menção será apreciada, mas não é necessária. Uma menção ao pessoal do Processing.js, do JQuery e do ACE Editor é recomendada... eles é que fizeram o trabalho pesado.
 
-Este código está disponível sobre licensa GNU GPLv3.
+Este código está disponível sobre licença GNU GPLv3.
