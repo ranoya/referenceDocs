@@ -1,0 +1,25 @@
+# ignora configurações de ftp
+sftp-config.json
+ftp-setup.json
+sftp-setup.json
+ftp-sync.json
+sftp.json
+
+# pastas
+.vscode/*.*
+
+# configurações do sublime
+*.sublime-project
+*.sublime-workspace
+
+# outros arquivos
+Thumbs\\.db
+\\.svn/
+\\.hg/
+\\.bzr
+_darcs
+CVS
+\\.DS_Store
+Thumbs\\.db
+desktop\\.ini
+\\.well-known

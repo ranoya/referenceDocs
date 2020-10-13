@@ -15,7 +15,29 @@
     font-size: 16px;
     line-height: 22px;
 
-    }
+}
+
+#indiceDocs {}
+
+#indiceDocs a {
+
+    color: white;
+
+}
+
+#indiceDocs a:hover {
+
+    background-color: white;
+    color: #8487BE;
+}
+
+.ligado {
+
+    border-left-color: white !important;
+
+}
+
+.desligado {}
 
 input {
 
@@ -41,7 +63,9 @@ iframe {
 
 }
 
-p a, td a, code a {
+p a,
+td a,
+code a {
 
     color: #562B95;
     text-decoration: none;
@@ -49,7 +73,10 @@ p a, td a, code a {
 
 }
 
-p a:hover, td a:hover, code a:hover, a code:hover {
+p a:hover,
+td a:hover,
+code a:hover,
+a code:hover {
 
     background-color: #000081;
     color: white;
@@ -59,7 +86,6 @@ p a:hover, td a:hover, code a:hover, a code:hover {
 iframe {
 
     border: 1px solid white;
-
 }
 
 .capdivisao {
@@ -72,7 +98,7 @@ iframe {
 }
 
 #iconmenumobile:hover {
-        
+
     background-color: white;
 
 }
@@ -128,7 +154,7 @@ table {
 
 
 
-#copyright svg{
+#copyright svg {
 
     fill: white;
 
@@ -144,19 +170,19 @@ table {
 
 @media (max-width: 750px) {
 
-#conteudoDocs {
+    #conteudoDocs {
 
-    font-size: 12px;
-    line-height: 16px;
-}
+        font-size: 12px;
+        line-height: 16px;
+    }
 
-#copyright {
+    #copyright {
 
-    padding-left: 0;
-    padding-bottom: 40px;
-    font-size: 7px;
-    line-height: 12px;
+        padding-left: 0;
+        padding-bottom: 40px;
+        font-size: 7px;
+        line-height: 12px;
 
-}
+    }
 
 }
